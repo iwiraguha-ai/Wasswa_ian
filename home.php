@@ -45,15 +45,27 @@ background:#f4f4f4;
 
 /* Header */
 
-header{
-background:rgb(22, 2, 109);
-color:rgb(0, 0, 0);
-padding:10px;
+.main-header {
+    position: absolute;
+    top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.main-header h1 {
+    color: white;
+    font-size: 32px;
+    margin: 0;
 }
 
-nav{
+.navbar 
+{
 display:flex;
-justify-content:space-between;
+justify-content:center;
+gap: 20px;
 align-items:center;
 position:relative;
 z-index: 1000;
@@ -63,6 +75,11 @@ nav ul{
 list-style:none;
 display:flex;
 gap:20px;
+}
+
+.h1
+{
+    color: "purple"
 }
 
 nav ul li a{
@@ -113,6 +130,14 @@ box-shadow:0 0 10px rgba(0,0,0,0.2);
 color:#1f3c88;
 }
 
+.navbar
+{
+
+color:white;
+text-align:center;
+padding:40px;
+}
+
 /* Contact */
 
 .contact{
@@ -137,21 +162,9 @@ padding:15px;
 <body>
 
 <header>
-
-<nav>
-
-<h1>Ian Industries & Repairs</h1>
-
-<ul>
-<li><a href="home.php">Home</a></li>
-<li><a href="services.php">Services</a></li>
-<li><a href="products.php">Products</a></li>
-<li><a href="contacts.php">Contacts</a></li>
-<li><a href="logout.php" style="color:red;">Logout</a></li>
-</ul>
-
-</nav>
-
+    <section class="main-header">
+        <h1>IAN INDUSTRIES & REPAIRS</h1>
+    </section>
 </header>
 
 
@@ -167,33 +180,19 @@ padding:15px;
 
 </section>
 
-
-<section class="services">
-
-<h2>Our Services</h2>
-
-<div class="service-box">
-<h3>Car Engine Repair</h3>
-<p>Complete engine diagnostics and repair for all car models.</p>
-</div>
-
-<div class="service-box">
-<h3>Motorcycle Service</h3>
-<p>Maintenance and repair for motorcycles and scooters.</p>
-</div>
-
-<div class="service-box">
-<h3>Brake & Oil Service</h3>
-<p>Brake repair, oil change and vehicle inspection.</p>
-</div>
-
-<div class="service-box">
-<h3>Electrical Repairs</h3>
-<p>Vehicle wiring, battery and electrical system repair.</p>
-</div>
-
+<section class= "navbar">
+<nav>
+    <h1>
+<ul>
+<li><a href="home.php">Home</a></li>
+<li><a href="services.php">Services</a></li>
+<li><a href="products.php">Products</a></li>
+<li><a href="contacts.php">Contacts</a></li>
+<li><a href="logout.php" style="color:red;">Logout</a></li>
+</ul>
+    </h1>
+</nav>
 </section>
-
 
 <section class="contact">
 

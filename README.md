@@ -12,7 +12,7 @@ The system allows users to:
 - Log in securely  
 - View available products  
 - Access services offered  
-- Contact the business  
+- Contact the business for more information and services offered 
 
 ---
 
@@ -31,7 +31,7 @@ The system allows users to:
 1. Install XAMPP  
 2. Start **Apache** and **MySQL**  
 3. Copy the project folder to:
-   C:\xampp\htdocs\
+   D:\xampp\htdocs\
 4. Open browser and go to:
    http://localhost/wasswa_ian
 
@@ -40,7 +40,7 @@ The system allows users to:
 ## 🗄️ Database Import Instructions
 
 1. Open phpMyAdmin  
-2. Create a new database (e.g. `ian_industries`)  
+2. Create a new database (e.g. `Wasswa_ian`)  
 3. Click **Import**  
 4. Select the `.sql` file from the project  
 5. Click **Go**  
