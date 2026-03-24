@@ -18,11 +18,28 @@ if (isset($_GET['timeout'])) {
 <style>
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg,#1f3c88,#4a90e2);
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('images/logo.png') no-repeat center center;
+    background-size: cover;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.login-box
+{
+    width: 300px;
+    height: 200px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* dark transparent */
+    color: white;
+    border-radius: 10px;
 }
 
 .login-box {

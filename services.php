@@ -158,7 +158,7 @@ margin-top:40px;
 
 <div class="service-box" onclick="bookService('Car Engine Repair')">
 
-<img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc">
+<img src="https://images.unsplash.com/photo-1625047509168-a7026f36de04">
 
 <h3>Car Engine Repair</h3>
 
@@ -178,7 +178,7 @@ margin-top:40px;
 
 <div class="service-box" onclick="bookService('Brake Repair')">
 
-<img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537">
+<img src="images/brake repair.jfif">
 
 <h3>Brake Repair</h3>
 
@@ -188,7 +188,7 @@ margin-top:40px;
 
 <div class="service-box" onclick="bookService('Oil Change')">
 
-<img src="https://images.unsplash.com/photo-1625047509168-a7026f36de04">
+<img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc">
 
 <h3>Oil Change</h3>
 
@@ -198,7 +198,7 @@ margin-top:40px;
 
 <div class="service-box" onclick="bookService('Battery Replacement')">
 
-<img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2">
+<img src="images/battery recplacement.jfif">
 
 <h3>Battery Replacement</h3>
 
@@ -208,7 +208,7 @@ margin-top:40px;
 
 <div class="service-box" onclick="bookService('Electrical Repairs')">
 
-<img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
+<img src="images/electrical repairs.jfif">
 
 <h3>Electrical Repairs</h3>
 
