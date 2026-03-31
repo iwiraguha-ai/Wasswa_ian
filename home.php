@@ -204,8 +204,22 @@ padding:15px;
 
 </section>
 
-<footer>
-<p>© 2026 Ian Industries & Repairs | Car & Motorcycle Specialists</p>
+<footer style="
+    text-align: center; 
+    padding: 30px; 
+    background: #2c3e50; 
+    color: white; 
+    margin-top: 50px; 
+    border-top: 4px solid #27ae60;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+">
+    <p style="margin: 0; font-weight: bold; letter-spacing: 1px;">
+        &copy; <?php echo date("Y"); ?> IAN INDUSTRIES & REPAIRS 
+        | Car & Motorcycle Specialists
+    </p>
+    <p style="margin-top: 10px; font-size: 0.85em; color: #bdc3c7;">
+        Kampala, Uganda | Quality Service Guaranteed
+    </p>
 </footer>
 
 <script>

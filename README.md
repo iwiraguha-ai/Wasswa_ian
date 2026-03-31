@@ -11,7 +11,8 @@ This is a web-based system developed to manage products and services for Ian Ind
 The system allows users to:
 - Log in securely  
 - View available products  
-- Access services offered  
+- Access services offered 
+- Order the products avaiable on our website  
 - Contact the business for more information and services offered 
 
 ---
@@ -49,7 +50,7 @@ The system allows users to:
 
 ## ✅ Features of the System
 - User login system  
-- Product display page  
+- Product display and purchase page  
 - Services page  
 - Contact form  
 - Logout functionality  
