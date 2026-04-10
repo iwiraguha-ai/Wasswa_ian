@@ -1,5 +1,5 @@
 <?php session_start(); 
-if (isset($_SESSION['user'])) {
+if (isset($_SESSION['username'])) {
     header("Location: home.php");
     exit();
 }
@@ -110,6 +110,11 @@ button:hover {
 </label>
         <button type="submit">Login</button>
     </form>
+
+    <div class="footer">
+    <p>Don't have an account? <a href="register.php" style="color:#1f3c88; font-weight:bold;">Sign Up Here</a></p>
+    <p>New user? <a href="register.php" style="color:#1f3c88;">Create an account here</a></p>
+</div>
 
     <?php
     if (isset($_GET['error'])) {
