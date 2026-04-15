@@ -22,6 +22,8 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
+    margin: 0;
+    min-height: 100vh;
     padding-bottom: 60px; /* Space for fixed footer */
 }
 
@@ -184,14 +186,15 @@ h2 {
 }
 
 /* --- Footer --- */
-footer {
-    background-color: #2c3e50;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.footer {
+    
+    text-align: center; 
+    padding: 30px; 
+    background: #2c3e50; 
+    color: white; 
+    margin-top: 50px; 
+    border-top: 4px solid #27ae60;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
 }
 
 /* --- Login Page --- */
@@ -303,3 +306,145 @@ footer {
 }
 
 .sidebar a:hover { color: var(--primary-color); padding-left: 5px; }
+
+body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 20px; }
+        .admin-container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .notif-bar { background: #d9534f; color: white; padding: 10px; border-radius: 5px; margin-bottom: 20px; text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+        th { background-color: #1f3c88; color: white; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .status-pending { color: #d9534f; font-weight: bold; }
+.contact-form input[list] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+ body { font-family: 'Segoe UI', Tahoma, sans-serif; background-color: #f0f2f5; margin: 0; padding: 20px; }
+      .wrapper {
+    min-height: 100vh; /* Minimum of one screen, but can grow longer */
+    overflow: auto; /* Adds a scrollbar if the inventory or messages are long */
+    display: block; 
+    position: relative;
+}
+        
+        h2 { color: #1f3c88; border-bottom: 3px solid #1f3c88; padding-bottom: 10px; margin-bottom: 20px; }
+        
+        table { width: 100%; border-collapse: collapse; background: white; }
+        th { background-color: #1f3c88; color: #ffffff; padding: 15px; text-align: left; }
+        td { padding: 12px; border-bottom: 1px solid #ddd; color: #333; font-size: 14px; }
+        
+        tr:hover { background-color: #f9f9f9; }
+        
+        .badge-country { background: #eef2ff; color: #1f3c88; padding: 5px 10px; border-radius: 15px; font-weight: bold; font-size: 12px; }
+        .status-pending { color: #d9534f; font-weight: bold; text-transform: uppercase; }
+        
+.reply-area { margin-top: 10px; }
+        textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; resize: none; font-family: inherit; }
+        .btn-reply { background: #1f3c88; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; margin-top: 5px; font-weight: bold; }
+        .btn-reply:hover { background: #16306b; }
+        
+        .status-read { color: #28a745; font-weight: bold; }
+        .status-pending { color: #dc3545; font-weight: bold; }
+        .history-box { background: #f8f9fa; padding: 10px; border-radius: 5px; border-left: 4px solid #1f3c88; margin-top: 5px; font-style: italic; }
+        
+/* Remove 'height: 100vh' and 'overflow: hidden' if you have them */
+.wrapper {
+    width: 95%;
+    margin: 20px auto;
+    min-height: 100vh; /* Grows with content */
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    flex-direction: column;
+    position: relative;
+    display:block;
+}
+
+.inventory-section {
+    flex: 1; /* Pushes the footer to the bottom */
+    margin-bottom: 30px;
+    width: 95%;
+    max-width: 1200px;
+     position: relative;
+    display:flex;
+    padding: 25px auto;
+    border-radius: 12px;
+    flex-direction: column;
+     min-height: 100vh;
+     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #1f3c88;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* 5. Buttons - Clean and clickable */
+.btn {
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+    display: inline-block;}
+
+.btn-edit {
+     color: #1f3c88;
+      font-weight: bold;
+       text-decoration: none; 
+       margin-right: 10px;
+     }
+     .btn-edit:hover {
+    background: #1f3c88;
+    color: white;
+}
+    .btn-delete { 
+        color: red; 
+        font-weight: bold; 
+        text-decoration: none; }
+     .btn-delete:hover {
+    background: #d9534f;
+    color: white;
+}
+/* 6. Messaging Section Styling */
+.reply-box {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 10px;
+    resize: vertical;
+}
+/* 7. Footer - Stays at the bottom of the page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto; /* Final insurance for the bottom position */
+}
+
+  

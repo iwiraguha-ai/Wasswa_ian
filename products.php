@@ -82,7 +82,9 @@ $result = $stmt->get_result();
                 <li><a href="services.php" style="color:white; text-decoration:none;">Services</a></li>
                 <li><a href="products.php" style="color:white; text-decoration:none;">Products</a></li>
                 <li><a href="cart.php" style="color:white; text-decoration:none;">Cart (<?php echo count($_SESSION['cart'] ?? []); ?>)</a></li>
-                <li><a href="admin.php" style="color:white; text-decoration:none;">Admin</a></li>
+                <?php if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin'): ?>
+    <li><a href="admin.php" style="color:red;">Admin Panel</a></li>
+<?php endif; ?>
                 <li><a href="logout.php" style="color:red; text-decoration:none; font-weight:bold;">Logout</a></li>
             </ul>
         </nav>

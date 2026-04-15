@@ -17,7 +17,7 @@ if (isset($_GET['timeout'])) {
     
 <style>
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url('images/logo.png') no-repeat center center;
     background-size: cover;
@@ -34,20 +34,12 @@ body {
 .login-box
 {
     width: 300px;
-    height: 200px;
+    height: 100hv;
     margin: 100px auto;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.7); /* dark transparent */
+    padding: 30px;
+    background-color: chocolate;
     color: white;
     border-radius: 10px;
-}
-
-.login-box {
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    width: 300px;
-    text-align: center;
 }
 
 .company-name{
@@ -71,11 +63,11 @@ input {
 
 button {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     background: #1f3c88;
     color: white;
     border: none;
-    border-radius:5px;
+    border-radius:7px;
     font-size:16px;
     cursor: pointer;
 }
@@ -85,9 +77,9 @@ button:hover {
 }
 
 .footer{
-    margin-top:15px;
-    font-size:12px;
-    color:gray;
+    margin-top:20px;
+    font-size:15px;
+    color: aqua;
 }
 </style>
 
@@ -125,6 +117,8 @@ button:hover {
 © 2026 Ian Industries & Repairs
 </div>
 </div>
+
+
 
 <script>
 function togglePassword(){

@@ -189,6 +189,9 @@ padding:15px;
 <li><a href="products.php">Products</a></li>
 <li><a href="contacts.php">Contacts</a></li>
 <li><a href="logout.php" style="color:red;">Logout</a></li>
+<?php if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin'): ?>
+    <li><a href="admin.php" style="color:red;">Admin Panel</a></li>
+<?php endif; ?>
 </ul>
     </h1>
 </nav>
